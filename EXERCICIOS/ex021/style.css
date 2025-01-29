@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.login-box {
+    background-color: gainsboro;
+    text-align: center;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
