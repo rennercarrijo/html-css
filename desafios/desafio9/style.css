@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(48, 44, 44);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main iframe {
+    margin: auto;
+}
