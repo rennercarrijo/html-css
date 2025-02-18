@@ -11,6 +11,7 @@
         }
 
         table {
+            position: relative;
             width: 400px;
             border-collapse: collapse
         }
@@ -19,10 +20,16 @@
             font-weight: bold;
             font-size: 1em;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #242424;
+        }
         
         th {
             color: white;
-            background-color: #000000dd;
+            background-color: #242424;
         }
 
         td, th {
@@ -37,7 +44,7 @@
         }
 
         td#total {
-            background-color: #000000dd;
+            background-color: #242424;
             color: white;
         }
 
